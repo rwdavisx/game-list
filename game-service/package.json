@@ -1,20 +1,10 @@
 {
-  "name": "express-app",
+  "name": "aws-rest-with-dynamodb",
   "version": "1.0.0",
-  "description": "",
-  "main": "../index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "description": "Serverless CRUD service exposing a REST HTTP interface",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3",
-    "serverless-http": "^1.6.0",
-    "uuid": "^3.3.2"
-  },
-  "devDependencies": {
-    "serverless-offline": "^3.25.17"
+    "uuid": "^2.0.3"
   }
 }
